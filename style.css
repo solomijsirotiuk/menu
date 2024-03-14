@@ -1,0 +1,22 @@
+body{
+background: #9cc8ea;}
+#menu li{
+    display: inline-block;/*розташовує горизонтально */
+border: 2px solid green;
+background: #defad3;
+margin-left: -4.2px;
+width: 100px;
+}
+#menu li a{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#menu li:first-child/*перший елемент li*/{
+    border-radius: 10px 0px 0px 10px;
+}
+#menu li:last-child/*останній елемент li*/{
+    border-radius: 0px 10px 10px 0px;
+}
+#menu li:hover{
+
+background-color: #fff;
+border: 2px solid rgb(3, 83, 20);
+}
